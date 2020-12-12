@@ -1,0 +1,301 @@
+.nav{
+    display: inline;
+    padding:20px 0px;
+    /*position: fixed;
+    top:0;*/
+}
+.navbar{
+    transition: all 0.7s ease-in;
+    background: transparent;
+}
+.navbar.bg-primary{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+ul{
+    list-style: none;
+    /* display: inline; */
+}
+
+.heading li{
+    text-align: center;
+    font-size: 18px;
+    margin:6px;
+    display: inline;
+}
+.heading li:hover{
+    color:rgb(46, 226, 166);
+}
+a:hover,.btn:hover{
+    color:rgb(46, 226, 166);
+}
+.travello{
+    font-weight: bold;
+    font-size: 30px;
+}
+a{
+    color: black;
+}
+.nav_btn{
+    font-size: 18px;
+}
+
+/* .carousel-indicators li{
+    background-color: blue;
+} */
+/* .carousel-control-next span,
+.carousel-control-prev span{
+    background-color: blue;
+} */
+.carousel-control-prev-icon{
+    color: green;
+}
+.carousel-item{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+img.opening{
+    width: 100%;
+    height: 660px;
+}
+.centered {
+    /* font-size: 100px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .Caption p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 33px;
+    margin-bottom: 49px;
+  }
+  .name{
+    font-family: "nothing you could do",cursive;
+    font-size: 150px;
+    text-transform: capitalize;
+    /* font-weight: 400; */
+    line-height: .5;
+    color: #fff;
+    margin-bottom: 0;
+  }
+  .btn1{
+      
+      background-color: green;
+      padding: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      transition: all 0.7s ease;
+  }
+.btn1:hover{
+    background-color: red;
+    padding:15px 30px;
+}
+.search{
+    background-color: rgb(9, 9, 94);
+}
+#search-form{
+    display: flex;
+    justify-content: space-between;
+}
+.cont .row{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.input_field{
+    color: cornsilk;
+    
+    /* padding: ; */
+}
+.input_field input{
+    background-color: rgb(9, 9, 94);
+    color: cornsilk;
+    border-radius: 5px;
+    width: 200px;
+    padding: 10px;
+}
+.input_field select{
+    background-color: rgb(9, 9, 94);
+    color: cornsilk;
+    border-radius: 5px;
+    width: 200px;
+    padding: 10px;
+    
+}
+.btn3{
+    background-color: rgb(9, 9, 94);
+    color: cornsilk;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: background-color 0.7s ease;
+}
+.btn3:hover{
+    background-color: green;
+}
+/* .col-lg-4{
+    margin-bottom: 30px;
+} */
+.col-lg-4 img{
+   width: 100%;
+   height: 120%;
+   border-radius: 10px;
+}
+.populardestination{
+    padding: 140px 0px;
+}
+.popularheading{
+    align-items: center;
+}
+.popularheading h3{
+    text-align: center;
+}
+.popularheading p{
+    text-align: center;
+    opacity: .7;
+}
+.singledestination{
+    position: relative;
+    margin-bottom: 30px;
+}
+.email{
+    background-color: rgb(102, 102, 197);
+    padding: 67px 0px;
+}
+/* .email .col-lg-7{
+    display: flex;
+    /* justify-content: space-between; */
+    
+    /* .col-lg-7{
+        align-items: center;
+    } */
+    .emailinput input{
+        width: 100%;
+        height: 50px;
+        background: #fff;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        border: 0;
+        padding-left: 15px;
+        color: #000;
+        font-size: 16px;
+        font-family: rubik,sans-serif;
+        font-weight: 300;
+    }
+    .emailbtn{
+        background-color: red;
+        width:100%;
+        height: 50px;
+        border-radius: 5px;
+        transition: background-color 0.7s ease;
+    }
+    .emailbtn:hover{
+        background-color: darkgreen;
+    }
+    
+    .email .container{
+        align-items: center;
+    }
+    
+/* div.input_feild{
+    display: inline;
+} */
+/* text-align: center;
+align-items: center;
+display: inline-block;
+}
+.search div{
+    display: inline;
+} */
+.popularplaces{
+    background-color: rgb(220, 220, 247);
+    padding: 140px 0px;
+}
+.placesheading h3{
+    text-align: center;
+}
+.placesheading p{
+    text-align: center;
+    opacity: .7;
+}
+.popularphotos img:hover{
+    transition:.3s;
+    transform: translateY(-3%);
+}
+.card{
+    border-radius: 10px;
+}
+.cont .row{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/* .more{
+    align-items: center;
+} */
+.extrainf{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+/* .comfortable,.hotel,.guide{
+    align-items: center;
+}
+.extrainf .text-center h4{
+    text-align: center;
+} */
+.quotes{
+    padding: 100px 0px;
+    background-color: rgb(220, 220, 247);
+}
+.quotes .container{
+    padding: 35px;
+}
+.quotes .text-center img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.recenttrips{
+    padding:100px 0px;
+}
+.recenttrips .text-center{
+    padding-bottom: 50px;
+}
+footer{
+    background-color: rgb(6, 6, 36);
+}
+footer .container1{
+    padding:100px 0px;
+}
+footer .row{
+    color:white;
+}
+footer .col-lg-4 img{
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+}
+footer li{
+    padding: 10px;
+    opacity: 0.7;
+}
+.address p{
+    /* padding: 10px; */
+    opacity: 0.7;
+}
+.footerheading{
+    padding: 30px 0px;
+}
+footer .two{
+    border-top:1px solid rgba(255, 255, 255, 0.342);
+    padding:10px
+}
+.two p{
+    color:white;
+    opacity:0.7;
+}
